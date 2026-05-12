@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namma Santhe Ledger Presentation</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 20px; }
+        .slide { background: white; border: 2px solid #1A237E; border-radius: 12px; padding: 40px; margin-bottom: 40px; min-height: 400px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); page-break-after: always; position: relative; overflow: hidden; }
+        .slide::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 8px; background: #1A237E; }
+        h1 { color: #1A237E; font-size: 32px; border-bottom: 2px solid #E0E0E0; padding-bottom: 10px; }
+        h2 { color: #1A237E; font-size: 24px; }
+        ul { margin-top: 20px; }
+        li { margin-bottom: 15px; font-size: 18px; }
+        .title-slide { text-align: center; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+        .title-slide h1 { border: none; font-size: 48px; margin-bottom: 10px; }
+        .tagline { font-style: italic; color: #5C6BC0; font-size: 20px; }
+        .footer { position: absolute; bottom: 20px; right: 40px; color: #9E9E9E; font-size: 12px; }
+        @media print {
+            body { margin: 0; padding: 0; }
+            .slide { border: none; box-shadow: none; margin: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slide title-slide">
+        <h1>Namma Santhe Ledger</h1>
+        <p class="tagline">A Digital Khata for Rural Micro-Vendors</p>
+        <p style="margin-top: 50px;"><strong>Presented by:</strong> [Your Name]</p>
+        <div class="footer">Page 1</div>
+    </div>
+
+    <div class="slide">
+        <h2>• ABOUT THE DOMAIN</h2>
+        <ul>
+            <li><strong>The Rural Marketplace:</strong> Focusing on "Santhe" (weekly village markets), the economic heart of rural areas.</li>
+            <li><strong>Micro-Vendors:</strong> Serving small-scale sellers like vegetable vendors, flower sellers, and snack stalls.</li>
+            <li><strong>Credit-Based Economy:</strong> Trust-based "Udari" is essential for rural business but difficult to track.</li>
+        </ul>
+        <div class="footer">Page 2</div>
+    </div>
+
+    <div class="slide">
+        <h2>• PROJECT OBJECTIVES</h2>
+        <ul>
+            <li><strong>Digital Transformation:</strong> Transition vendors from paper diaries to a reliable mobile application.</li>
+            <li><strong>Financial Clarity:</strong> Provide instant summaries of "Daily Sales" and "Total Pending Dues."</li>
+            <li><strong>Speed & Simplicity:</strong> Ensure transaction logging takes less than 5 seconds.</li>
+            <li><strong>Improved Recovery:</strong> Professionalize debt collection via WhatsApp reminders.</li>
+        </ul>
+        <div class="footer">Page 3</div>
+    </div>
+
+    <div class="slide">
+        <h2>• PROBLEM STATEMENT</h2>
+        <ul>
+            <li><strong>Memory Dependence:</strong> Vendors lose money by forgetting small customer debts.</li>
+            <li><strong>Physical Vulnerability:</strong> Pocket diaries get lost, torn, or damaged by rain/dirt.</li>
+            <li><strong>Manual Math:</strong> Calculating end-of-day profits and total dues is error-prone and slow.</li>
+            <li><strong>Collection Friction:</strong> No easy way to notify customers about outstanding payments.</li>
+        </ul>
+        <div class="footer">Page 4</div>
+    </div>
+
+    <div class="slide">
+        <h2>• TECHNICAL IMPLEMENTATION</h2>
+        <ul>
+            <li><strong>Core:</strong> Android Native (Kotlin) for performance and reliability.</li>
+            <li><strong>Database:</strong> Room SQLite for secure, offline-first data persistence.</li>
+            <li><strong>Architecture:</strong> MVVM (Model-View-ViewModel) for clean code separation.</li>
+            <li><strong>UI/UX:</strong> Material Design 3, custom numeric keypad, and adaptive dashboards.</li>
+            <li><strong>Modern Tools:</strong> Kotlin Coroutines, ViewBinding, and KSP for optimized builds.</li>
+        </ul>
+        <div class="footer">Page 5</div>
+    </div>
+
+    <div class="slide">
+        <h2>• ACTIVITIES PERFORMED</h2>
+        <ul>
+            <li><strong>Requirement Analysis:</strong> Identified the specific "5-second rule" for rural vendor usage.</li>
+            <li><strong>Database Schema:</strong> Designed efficient mapping for Customers and Transactions.</li>
+            <li><strong>Feature Build:</strong> Implemented numeric keypad, category chips, and Dashboard stats.</li>
+            <li><strong>Integration:</strong> Built the WhatsApp Intent system for debt collection.</li>
+            <li><strong>Optimization:</strong> Resolved complex JDK 21 build conflicts and disk space issues.</li>
+        </ul>
+        <div class="footer">Page 6</div>
+    </div>
+
+    <div class="slide">
+        <h2>• FUTURE PLANS</h2>
+        <ul>
+            <li><strong>Cloud Backup:</strong> Google Drive integration for zero data loss.</li>
+            <li><strong>Local Languages:</strong> Kannada and other regional language support.</li>
+            <li><strong>Voice Shortcuts:</strong> AI-powered voice entry for hands-free logging.</li>
+            <li><strong>Print Support:</strong> Bluetooth thermal printer integration for giving receipts.</li>
+        </ul>
+        <div class="footer">Page 7</div>
+    </div>
+
+</body>
+</html>
